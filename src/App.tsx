@@ -6,7 +6,6 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
-import InstagramFeed from './components/InstagramFeed';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -131,7 +130,6 @@ export default function App() {
         <About />
         <Services />
         <Portfolio />
-        <InstagramFeed />
         <Blog adminMode={adminMode} />
         <Contact adminMode={adminMode} onMessageReceived={updateUnreadCount} />
       </main>
