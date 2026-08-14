@@ -82,7 +82,7 @@ export default function InstagramFeed() {
   };
 
   const profilePic = 'https://raw.githubusercontent.com/vajirnathrushabh-hub/Portfolio/main/src/rushabh.png';
-  const realInstaUrl = 'https://www.instagram.com/dad_of_aarav_aarush_/';
+  const realInstaUrl = 'https://www.instagram.com/vajirnath007/';
 
   return (
     <section id="instagram" className="py-24 bg-brand-dark/95 border-t border-b border-white/5 relative overflow-hidden">
@@ -124,7 +124,7 @@ export default function InstagramFeed() {
             <div className="flex-1 text-center sm:text-left">
               <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-4">
                 <div className="flex items-center justify-center sm:justify-start gap-1.5">
-                  <h3 className="font-display font-bold text-xl text-white">dad_of_aarav_aarush_</h3>
+                  <h3 className="font-display font-bold text-xl text-white">vajirnath007</h3>
                   {/* Verified blue badge */}
                   <span className="h-5 w-5 rounded-full bg-[#0095f6] flex items-center justify-center shrink-0 shadow-sm" title="Verified Social Media Manager">
                     <Check className="h-3.5 w-3.5 text-white stroke-[4px]" />
@@ -183,7 +183,7 @@ export default function InstagramFeed() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-xs font-semibold text-brand-pink mt-2 hover:underline"
                 >
-                  <span>instagram.com/dad_of_aarav_aarush_</span>
+                  <span>instagram.com/vajirnath007</span>
                   <ExternalLink className="h-3 w-3" />
                 </a>
               </div>
@@ -308,7 +308,7 @@ export default function InstagramFeed() {
                       />
                       <div>
                         <div className="flex items-center gap-1">
-                          <strong className="text-white text-xs font-semibold leading-none">dad_of_aarav_aarush_</strong>
+                          <strong className="text-white text-xs font-semibold leading-none">vajirnath007</strong>
                           <span className="h-3.5 w-3.5 rounded-full bg-[#0095f6] flex items-center justify-center text-[8px] text-white">
                             <Check className="h-2 w-2 text-white stroke-[5px]" />
                           </span>
@@ -333,7 +333,7 @@ export default function InstagramFeed() {
                       />
                       <div>
                         <p className="text-xs text-gray-300 leading-relaxed">
-                          <strong className="text-white text-xs font-semibold mr-1.5">dad_of_aarav_aarush_</strong>
+                          <strong className="text-white text-xs font-semibold mr-1.5">vajirnath007</strong>
                           {selectedPost.caption}
                         </p>
                         <span className="text-[9px] text-gray-500 mt-1 block uppercase tracking-wider">{selectedPost.timestamp}</span>
