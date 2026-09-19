@@ -76,7 +76,7 @@ export default function Navbar({ activeSection, adminMode, setAdminMode, unreadC
                 <Sparkles className="h-5 w-5 animate-pulse" />
               </div>
               <span className="font-display font-black text-xl tracking-tighter text-white uppercase italic">
-                Rushabh<span className="text-brand-pink">.</span>Vajirnath
+                Aarush<span className="text-brand-pink">Media</span>Group
               </span>
             </a>
           </div>
