@@ -7,6 +7,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Blog from './components/Blog';
+import Quote from './components/Quote';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Message } from './types';
