@@ -105,7 +105,7 @@ export default function Hero({ onNavToContact }: HeroProps) {
 
             {/* Introduction Paragraph */}
             <p className="font-sans text-base sm:text-lg text-gray-400 max-w-xl mb-8 leading-relaxed">
-              Hey, I'm <strong className="text-white">Aarush Media Group</strong>. I design modern high-performance websites, engineer viral social campaigns, and execute full-funnel digital marketing strategies that turn attention into revenue. Let’s make your brand impossible to ignore.
+              Hey, We are <strong className="text-white">Aarush Media Group</strong>. I design modern high-performance websites, engineer viral social campaigns, and execute full-funnel digital marketing strategies that turn attention into revenue. Let’s make your brand impossible to ignore.
             </p>
 
             {/* Hero CTAs */}
