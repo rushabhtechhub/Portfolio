@@ -111,6 +111,13 @@ export default function Navbar({ activeSection, adminMode, setAdminMode, unreadC
             >
               Let's Chat
             </a>
+            <a
+  href="#quote"
+  onClick={(e) => handleNavClick(e, '#quote')}
+  className="px-5 py-2.5 rounded-xl border border-brand-pink/40 text-brand-pink font-sans text-xs font-black uppercase tracking-wider hover:bg-brand-pink hover:text-black hover:scale-105 transition-all"
+>
+  Get Quote
+</a>
           </div>
 
           {/* Mobile menu button */}
