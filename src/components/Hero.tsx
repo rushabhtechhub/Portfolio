@@ -36,7 +36,7 @@ export default function Hero({ onNavToContact }: HeroProps) {
   }, []);
 
   const socialLinks = [
-    { name: 'Instagram', url: 'https://www.instagram.com/dad_of_aarav_aarush_/', icon: 'Instagram', color: 'hover:text-brand-pink hover:bg-brand-pink/10' },
+    { name: 'Instagram', url: 'https://www.instagram.com/vajirnath007/', icon: 'Instagram', color: 'hover:text-brand-pink hover:bg-brand-pink/10' },
     { name: 'Twitter', url: 'https://x.com/RushabhV1718', icon: 'Twitter', color: 'hover:text-brand-cyan hover:bg-brand-cyan/10' },
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/rushabh-vajirnath-918582205', icon: 'Linkedin', color: 'hover:text-blue-500 hover:bg-blue-500/10' },
     { name: 'Facebook', url: 'https://www.facebook.com/vajirnath007', icon: 'Facebook', color: 'hover:text-blue-600 hover:bg-blue-600/10' },
@@ -86,7 +86,7 @@ export default function Hero({ onNavToContact }: HeroProps) {
 
             {/* Dynamic Role Carousel */}
             <div className="h-8 mb-6 overflow-hidden flex items-center">
-              <span className="text-lg font-medium text-gray-400 mr-2">I am a</span>
+              <span className="text-lg font-medium text-gray-400 mr-2">We are a</span>
               <div className="relative h-full flex items-center">
                 {roles.map((role, idx) => (
                   <span
@@ -105,7 +105,7 @@ export default function Hero({ onNavToContact }: HeroProps) {
 
             {/* Introduction Paragraph */}
             <p className="font-sans text-base sm:text-lg text-gray-400 max-w-xl mb-8 leading-relaxed">
-              Hey, I'm <strong className="text-white">Rushabh Vajirnath</strong>. I design modern high-performance websites, engineer viral social campaigns, and execute full-funnel digital marketing strategies that turn attention into revenue. Let’s make your brand impossible to ignore.
+              Hey, I'm <strong className="text-white">Aarush Media Group</strong>. I design modern high-performance websites, engineer viral social campaigns, and execute full-funnel digital marketing strategies that turn attention into revenue. Let’s make your brand impossible to ignore.
             </p>
 
             {/* Hero CTAs */}
