@@ -132,6 +132,7 @@ export default function App() {
         <Services />
         <Portfolio />
         <Blog adminMode={adminMode} />
+        <Quote />
         <Contact adminMode={adminMode} onMessageReceived={updateUnreadCount} />
       </main>
 
